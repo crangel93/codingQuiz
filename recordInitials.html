@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+</head>
+<body>
+   <a href="highscores.html">High Scores</a>
+   <center> 
+    <br><br><br><h1>All done!</h1>
+<p>Your final score is <script>  var score = localStorage.getItem('score');
+document.write(score);
+</script></p>    
+<form>
+<label>Record your initials</label>
+<input type="text" id="initials"></input>
+<button onclick="submitInitials()">Submit</button>
+
+</form>
+  </center>  
+    
+    
+   
+   
+   
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
